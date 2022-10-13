@@ -1,3 +1,7 @@
+
+
+
+// added commect for assignment practice purpose
 const batchName = "Plutonium"
 
 let printName = function() {
