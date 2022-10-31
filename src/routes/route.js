@@ -8,19 +8,8 @@ router.get("/test-me", function (req, res) {
     res.send("My first ever api!")
 })
 
-router.post("/createUser", UserController.createUser  )
-
-router.get("/getUsersData", UserController.getUsersData)
-
 router.post("/createBook", BookController.createBook  )
 
 router.get("/bookList", BookController.allbookList)
 
-router.post("/getBooksInYear", BookController.getBooks )
-
-router.post("/getParticularBooks", BookController.getThatBook )
-
-router.get("/getXINRBooks", BookController.getBookByPrice)
-
-router.get("/getRandomBooks",BookController.getRandomBooks)
 module.exports = router; 
